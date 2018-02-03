@@ -78,7 +78,7 @@ public final class OTAUtils {
         } catch (IOException e) {
             logError(e);
             Log.v(TAG, "Falling back to getprop");
-            return runCommand("getprop" + propertyName);
+            return runCommand("getprop " + propertyName);
         }
     }
 
