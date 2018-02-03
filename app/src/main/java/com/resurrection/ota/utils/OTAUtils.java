@@ -77,6 +77,8 @@ public final class OTAUtils {
             return buildProps.getProperty(propertyName, "");
         } catch (IOException e) {
             logError(e);
+            Log.v(TAG, "Falling back to getprop");
+            return runCommand("getprop " + propertyName);
         }
         return "";
     }
