@@ -19,20 +19,18 @@ package com.resurrection.ota.utils;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
+import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
 
 import com.resurrection.ota.configs.OTAConfig;
 
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.Properties;
 
 public final class OTAUtils {
 
@@ -69,17 +67,10 @@ public final class OTAUtils {
     }
 
     public static String getBuildProp(String propertyName) {
-        Properties buildProps = new Properties();
-        try {
-            FileInputStream is = new FileInputStream(new File(BUILD_PROP));
-            buildProps.load(is);
-            is.close();
-            return buildProps.getProperty(propertyName, "");
-        } catch (IOException e) {
-            logError(e);
-            Log.v(TAG, "Falling back to getprop");
-            return runCommand("getprop " + propertyName);
+        if (!TextUtils.isEmpty(propertyName)) {
+            return runCommand(String.format("getprop %s", propertyName));
         }
+        return "";
     }
 
     public static String runCommand(String command) {
