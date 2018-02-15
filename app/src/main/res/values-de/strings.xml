@@ -30,7 +30,7 @@
   <string name="check_update_title">Nach Update suchen</string>
   <string name="last_check_summary">Letzte Prüfung: %1$s</string>
   <string name="last_check_never">Niemals</string>
-  <string name="check_update_failed">Kann nicht auf Updates geprüft werden</string>
+  <string name="check_update_failed">Kann nicht auf Updates prüfen</string>
   <string name="no_update_available">Kein Update verfügbar</string>
   <!-- Update interval -->
   <string name="interval_title">Interval für automatische Aktualisierungen</string>

@@ -34,12 +34,12 @@
   <string name="no_update_available">Tidak ada pembaruan yang tersedia</string>
   <!-- Update interval -->
   <string name="interval_title">Selang waktu pembaruan otomatis</string>
-  <string name="interval_entry_disable">Dinonaktifkan</string>
+  <string name="interval_entry_disable">Dimatikan</string>
   <string name="interval_entry_1h">Setiap jam</string>
   <string name="interval_entry_12h">Setiap 12 jam</string>
   <string name="interval_entry_24h">Setiap 24 jam</string>
-  <string name="autoupdate_enabled">Pembaruan otomatis diaktifkan</string>
-  <string name="autoupdate_disabled">Pembaruan otomatis dinonaktifkan</string>
+  <string name="autoupdate_enabled">Pembaruan otomatis dihidupkan</string>
+  <string name="autoupdate_disabled">Pembaruan otomatis dimatikan</string>
   <!-- Notification -->
   <string name="notification_title">Pembaruan ROM</string>
   <string name="notification_message">Pembaruan tersedia!</string>
