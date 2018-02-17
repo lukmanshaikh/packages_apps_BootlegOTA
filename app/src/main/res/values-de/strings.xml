@@ -25,11 +25,11 @@
   <!-- ROM info -->
   <string name="latest_version">Neueste Version: %1$s</string>
   <string name="unknown">Unbekannt</string>
-  <string name="system_uptodate">Ihr System ist auf dem neuesten Stand</string>
+  <string name="system_uptodate">Dein System ist auf dem neuesten Stand</string>
   <!-- Check update -->
   <string name="check_update_title">Nach Update suchen</string>
-  <string name="last_check_summary">Letzte Prüfung: %1$s</string>
-  <string name="last_check_never">Niemals</string>
+  <string name="last_check_summary">Zuletzt gesucht: %1$s</string>
+  <string name="last_check_never">Nie</string>
   <string name="check_update_failed">Kann nicht auf Updates prüfen</string>
   <string name="no_update_available">Kein Update verfügbar</string>
   <!-- Update interval -->
