@@ -1,6 +1,6 @@
 BootlegOTA
 -------
-A very simple OTA checker with Android Settings look and feel. Inspired from RR OTA
+A very simple OTA checker with Android Settings look and feel. Inspired from RR OTA method, fork of ResurrectionOTA 
 
 How it works
 ------------
