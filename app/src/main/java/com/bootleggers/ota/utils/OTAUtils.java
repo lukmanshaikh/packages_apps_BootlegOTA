@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.resurrection.ota.utils;
+package com.bootleggers.ota.utils;
 
 import android.content.Context;
 import android.content.Intent;
@@ -23,7 +23,7 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.resurrection.ota.configs.OTAConfig;
+import com.bootleggers.ota.configs.OTAConfig;
 
 import java.io.BufferedReader;
 import java.io.IOException;

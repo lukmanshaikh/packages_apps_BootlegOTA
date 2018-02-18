@@ -6,9 +6,9 @@
 # * You can define any tags that end with 'Url'. These tags will be added in the UI automatically
 # * Chances are you only need to change the ota_url in this file 
 #
-ota_url=https://raw.githubusercontent.com/ResurrectionRemix/OTA/master/akhil.xml
-release_type=Stable
-device_name=ro.rr.device
+ota_url=https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/master/OTAExamples/shishu_ota.xml
+release_type=Shishufied
+device_name=ro.bootleg.device
  
 #
 # VERSION
@@ -33,7 +33,7 @@ device_name=ro.rr.device
 #
 # uname -r will only be needed if using the app for kernels, not required here
 
-version_source=ro.rr.version
+version_source=ro.bootleg.version
 version_delimiter=-
-version_position=3
-version_format=yyyyMMdd
+version_position=4
+version_format=yyyyMMdd-HHmm
