@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nitrogen.ota.xml;
+package com.bootleggers.ota.xml;
 
 import android.util.Xml;
 

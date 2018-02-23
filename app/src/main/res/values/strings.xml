@@ -18,8 +18,8 @@
 <resources>
 
     <!-- App -->
-    <string name="app_name">Nitrogen OS updates</string>
-    <string name="app_title">Nitrogen OS updates</string>
+    <string name="app_name">Bootleggers ROM updates</string>
+    <string name="app_title">Bootleggers ROM updates</string>
 
     <!-- Categories -->
     <string name="ota_category">OTA</string>
@@ -48,10 +48,10 @@
     <string name="autoupdate_disabled">Automatic update is disabled</string>
 
     <!-- Notification -->
-    <string name="notification_title">Nitrogen OS update</string>
+    <string name="notification_title">Bootleggers ROM update</string>
     <string name="notification_message">A new version is available!</string>
-    <string name="nitrogen_channel">NitrogenOTA notifications</string>
-    <string name="nitrogen_channel_description">Notifications about new Nitrogen OS updates</string>
+    <string name="bootleg_channel">BootlegOTA notifications</string>
+    <string name="bootleg_channel_description">Notifications about new Bootleggers ROM updates</string>
 
     <!-- Dialog -->
     <string name="dialog_message">Checking for ROM updates, please wait…</string>
@@ -61,7 +61,7 @@
 
     <!-- Links -->
     <string name="links_rom_title">ROM</string>
-    <string name="links_rom_summary">Download Nitrogen OS build</string>
+    <string name="links_rom_summary">Download Bootleggers ROM build</string>
     <string name="links_changelog_title">Changelog</string>
     <string name="links_changelog_summary">Download new changelog file</string>
     <string name="links_donation_title">Donation</string>

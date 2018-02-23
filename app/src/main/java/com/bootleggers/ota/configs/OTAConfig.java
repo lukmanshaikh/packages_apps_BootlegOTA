@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.nitrogen.ota.configs;
+package com.bootleggers.ota.configs;
 
 import android.content.Context;
 
-import com.nitrogen.ota.utils.OTAUtils;
+import com.bootleggers.ota.utils.OTAUtils;
 
 import java.io.IOException;
 import java.io.InputStream;

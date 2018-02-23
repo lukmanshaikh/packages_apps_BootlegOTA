@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.nitrogen.ota.tasks;
+package com.bootleggers.ota.tasks;
 
 import android.app.job.JobParameters;
 import android.app.job.JobService;
 import android.os.AsyncTask;
 
-import com.nitrogen.ota.tasks.CheckUpdateTask;
-import com.nitrogen.ota.utils.OTAUtils;
+import com.bootleggers.ota.tasks.CheckUpdateTask;
+import com.bootleggers.ota.utils.OTAUtils;
 
 public class OTAService extends JobService {
 

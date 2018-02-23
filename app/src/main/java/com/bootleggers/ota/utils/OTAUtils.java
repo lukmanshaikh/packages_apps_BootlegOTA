@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nitrogen.ota.utils;
+package com.bootleggers.ota.utils;
 
 import android.content.Context;
 import android.content.Intent;
@@ -23,8 +23,8 @@ import android.net.Uri;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.nitrogen.ota.configs.OTAConfig;
-import com.nitrogen.ota.R;
+import com.bootleggers.ota.configs.OTAConfig;
+import com.bootleggers.ota.R;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -38,7 +38,7 @@ import java.util.Properties;
 
 public final class OTAUtils {
 
-    private static final String TAG = "NitrogenOTA";
+    private static final String TAG = "BootlegOTA";
     private static final boolean DEBUG = true;
 
     private OTAUtils() {

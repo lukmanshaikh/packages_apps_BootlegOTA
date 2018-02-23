@@ -14,31 +14,31 @@
  * limitations under the License.
  */
 
-package com.nitrogen.ota;
+package com.bootleggers.ota;
 
 import android.app.Fragment;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 import android.view.MenuItem;
 
-import com.nitrogen.ota.configs.LinkConfig;
-import com.nitrogen.ota.dialogs.WaitDialogFragment;
-import com.nitrogen.ota.fragments.NitrogenOTAFragment;
+import com.bootleggers.ota.configs.LinkConfig;
+import com.bootleggers.ota.dialogs.WaitDialogFragment;
+import com.bootleggers.ota.fragments.BootlegOTAFragment;
 
 public class MainActivity extends PreferenceActivity implements
         WaitDialogFragment.OTADialogListener, LinkConfig.LinkConfigListener {
 
-    private static final String FRAGMENT_TAG = NitrogenOTAFragment.class.getName();
-    private NitrogenOTAFragment mFragment;
+    private static final String FRAGMENT_TAG = BootlegOTAFragment.class.getName();
+    private BootlegOTAFragment mFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        mFragment = (NitrogenOTAFragment) getFragmentManager().findFragmentByTag(FRAGMENT_TAG);
+        mFragment = (BootlegOTAFragment) getFragmentManager().findFragmentByTag(FRAGMENT_TAG);
         if (mFragment == null) {
             getFragmentManager().beginTransaction()
-                    .replace(android.R.id.content, new NitrogenOTAFragment(), FRAGMENT_TAG)
+                    .replace(android.R.id.content, new BootlegOTAFragment(), FRAGMENT_TAG)
                     .commit();
         }
 
